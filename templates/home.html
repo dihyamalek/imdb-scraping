@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      article {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .plot-img {
+        width: 70%;
+      }
+    </style>
+    <title>Plot</title>
+  </head>
+  <body>
+    <main>
+      <h1>Projet de scraping du site IMDB</h1>
+
+      <article>
+        <h2>Distribution des films par catégorie</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_type_occurrences.png"
+        />
+      </article>
+
+      <article>
+        <h2>Top 50 des budgets des films</h2>
+        <p></p>
+        <img class="plot-img" src="static/generated_graph_top50_budget.png" />
+      </article>
+
+      <article>
+        <h2>Top 20 films ayant générés le plus de revenu</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_top20_cumulative_worldwide_gross.png"
+        />
+      </article>
+
+      <article>
+        <h2>Top 20 films ayant générés le moins de revenu</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_less20_cumulative_worldwide_gross.png"
+        />
+      </article>
+
+      <article>
+        <h2>Top 10 des films par retour sur investissement</h2>
+        <p></p>
+        <img class="plot-img" src="static/generated_graph_top10_benefit.png" />
+      </article>
+
+      <article>
+        <h2>Note moyenne par année de sortie de film</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_average_rating_per_release_year.png"
+        />
+      </article>
+
+      <article>
+        <h2>Distribution des revenus générés par genre de film</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_cumulative_worldwide_gross_peer_type.png"
+        />
+      </article>
+
+      <article>
+        <h2>Nombre de films sortie par décennie</h2>
+        <p></p>
+        <img
+          class="plot-img"
+          src="static/generated_graph_number_of_films_released_per_decade.png"
+        />
+      </article>
+    </main>
+  </body>
+</html>
