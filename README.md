@@ -7,7 +7,7 @@ This project consists of retrieving data from the IMDB site. This is a list of 9
 ## Getting started
 
 - Install [MongoDB](https://www.mongodb.com/try/download/community)
-- Create a collection : `scraping-imdb-db`
+- Create a db : `scraping-imdb-db`
 - Start the server : `flask run`
 - Ping the server `GET: http://localhost:5000//api/ping`
 - API to start the scraping of the list of pages `POST: http://localhost:5000//api/scraping-movies-page-url`
